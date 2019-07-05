@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/ahoyconference/webrtc-ios.git" }
+  s.source       = { :git => "https://github.com/ahoyconference/webrtc-ios.git", :tag => 'v0.0.10' }
 
   s.public_header_files = "WebRTC.framework/Headers/**/*.h"
   s.vendored_frameworks = "WebRTC.framework"
